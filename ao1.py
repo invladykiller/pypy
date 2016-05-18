@@ -7,7 +7,6 @@ states = {
     'Michigan': 'MI'
 }
 
-# create a basic set of states and some cities in them
 cities = {
     'CA': 'Canada',
     'MI': 'Detroited',
@@ -40,6 +39,5 @@ state = states.get('Texas')
 if not state:
     print "Sorry, no Texas."
 
-# get a city with a default value
 city = cities.get('TX', 'Does Not Exist')
 print "The city for the state 'TX' is: %s" % city
